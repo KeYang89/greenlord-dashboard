@@ -1,8 +1,8 @@
 # Angular Material Control Panel Design for Greenlord
 
-[Angular Material](https://github.com/angular/material).
+[Angular Material](https://github.com/angular/material)
 
-![promo-amd](src/assets/images/screenshot.png)
+![screenshot](src/assets/images/screenshot.png)
 
 
 ## Getting started
