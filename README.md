@@ -4,7 +4,6 @@
 
 ![promo-amd](src/assets/images/screenshot.png)
 
-Check out [DEMO](#)
 
 ## Getting started
 
