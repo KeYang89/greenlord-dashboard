@@ -15,7 +15,7 @@ Install dependencies:
 
     $ npm install
 
-Install gem 'sass'
+Install gem 'sass':
 
     $ gem install sass
     
@@ -23,7 +23,7 @@ Run development web-server:
 
     $ gulp serve
 
-## Features
+## Features:
 
 * AngularJS
 * Angular UI Router
@@ -33,7 +33,7 @@ Run development web-server:
 * Stylish, clean, responsive layout with original design
 * BrowserSync for the ease of development
 
-## Project structure and credits
+## Project structure and credits:
 
 Project structure based on [gulp-angular yeoman generator](https://github.com/Swiip/generator-gulp-angular) and [flatlogic angular material dashboard](http://flatlogic.github.io/angular-material-dashboard/site/)
 
