@@ -1,0 +1,15 @@
+<md-content ng-controller="ControlPanelController as vm" class="md-padding">
+    <md-progress-linear class="widget-progress md-accent" md-mode="determinate"
+                        value="{{vm.determinateValue}}" ng-show="vm.showProgress">
+    </md-progress-linear>
+
+    <md-radio-group ng-model="vm.reloadServer">
+        <md-radio-button class="md-accent" value="Staging">管理组</md-radio-button>
+        <md-radio-button class="md-accent" value="Production">开发组</md-radio-button>
+        <md-radio-button class="md-accent" value="Production">设计组</md-radio-button>
+    </md-radio-group>
+
+    <md-button class="md-raised md-warn" ng-click="vm.performProgress()">
+        刷新
+    </md-button>
+</md-content>

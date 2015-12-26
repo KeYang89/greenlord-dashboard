@@ -1,0 +1,60 @@
+<!-- TODO: Add validations -->
+<md-content md-theme="dark" class="md-padding" layout="row" layout-sm="column">
+    <md-input-container>
+        <label>用户名</label>
+        <input ng-model="vm.user.title">
+    </md-input-container>
+    <md-input-container>
+        <label>邮箱</label>
+        <input ng-model="vm.user.email" type="email">
+    </md-input-container>
+</md-content>
+<md-content class="md-padding">
+    <form name="userForm">
+        <div layout layout-sm="column">
+            <md-input-container flex="80">
+                <label>公司</label>
+                <input ng-model="vm.user.company" disabled>
+            </md-input-container>
+            <md-input-container flex>
+                <label>提交时间</label>
+                <input type="date" ng-model="vm.user.submissionDate">
+            </md-input-container>
+        </div>
+        <div layout layout-sm="column">
+            
+            <md-input-container flex>
+                <label>姓</label>
+                <input ng-model="vm.user.lastName">
+            </md-input-container>
+            <md-input-container flex>
+                <label>名</label>
+                <input ng-model="vm.user.firstName"
+                       placeholder="Placeholder text">
+            </md-input-container>
+        </div>
+        <md-input-container flex>
+            <label>街区</label>
+            <input ng-model="vm.user.address">
+        </md-input-container>
+        <div layout layout-sm="column">
+            <md-input-container flex>
+                <label>城市</label>
+                <input ng-model="vm.user.city">
+            </md-input-container>
+            <md-input-container flex>
+                <label>省</label>
+                <input ng-model="user.state">
+            </md-input-container>
+            <md-input-container flex>
+                <label>邮政编码</label>
+                <input ng-model="vm.user.postalCode">
+            </md-input-container>
+        </div>
+        <md-input-container flex>
+            <label>关于我们</label>
+            <textarea ng-model="vm.user.biography" columns="1"
+                      md-maxlength="150"></textarea>
+        </md-input-container>
+    </form>
+</md-content>
