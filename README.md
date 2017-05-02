@@ -9,7 +9,7 @@
 
 Clone project:
 
-    $ git clone https://github.com/YolandaYang/greenlord-angular-material.git
+    $ git clone https://github.com/KeYang89/greenlord-angular-material.git
 
 Install dependencies:
 
